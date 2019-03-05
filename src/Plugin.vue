@@ -2,7 +2,7 @@
     <div>
         <div class="uk-form-row">
             <div style="text-align: right" v-if="model.name">
-                <a @click="unselect"><small>(x remove selection)</small></a>
+                <a @click="unselect"><small>(<i style="color:darkred" class="uk-icon uk-icon-remove"></i> remove selection)</small></a>
             </div>
             <div class="select select--inline" :class="{'select--open':openSelect}">
                 <a class="select__btn ellipsis" @click.stop="openSelect=!openSelect">
