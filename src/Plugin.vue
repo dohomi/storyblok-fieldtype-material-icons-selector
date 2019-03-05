@@ -96,21 +96,3 @@
     }
   }
 </script>
-
-<style>
-    .p-metatags__google-title {
-        color: blue;
-        text-decoration: underline;
-    }
-
-    .p-metatags__google-link {
-        color: green;
-    }
-
-    .p-metatags__preview {
-        margin: 5px 0 15px;
-        padding: 10px;
-        color: #000;
-        background: #FFF;
-    }
-</style>
