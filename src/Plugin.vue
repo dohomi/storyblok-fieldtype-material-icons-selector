@@ -1,7 +1,6 @@
 <template>
     <div>
         <div class="uk-form-row">
-            <label class="uk-form-label">Icon Name</label>
             <div style="text-align: right" v-if="model.name">
                 <a @click="unselect"><small>(x remove selection)</small></a>
             </div>
