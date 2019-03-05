@@ -67,9 +67,7 @@
       initWith () {
         return {
           // needs to be equal to your storyblok plugin name
-          plugin: 'material-icons-selector',
-          title: '',
-          description: ''
+          plugin: 'material-icons-selector'
         }
       },
       pluginCreated () {
